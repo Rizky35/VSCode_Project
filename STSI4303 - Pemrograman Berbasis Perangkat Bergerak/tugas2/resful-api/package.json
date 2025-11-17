@@ -1,0 +1,20 @@
+{
+  "name": "resful-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon dist/index.js", 
+    "build:dev": "tsc --watch --preserveWatchOutput", 
+    "dev": "concurrently \"npm:build:dev\" \"npm:start:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "express": "^5.1.0"
+  }
+}
